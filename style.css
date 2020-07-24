@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.container {
+  width: 100%;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+/* nav */
+.main-nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: auto;
+  background-color: #272727;
+}
+.main-nav .icon {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.main-nav .main-menu {
+  display: flex;
+  flex: 1;
+  margin-left: 20px;
+}
+.main-nav .main-menu li {
+  padding: 0 10px;
+}
+.main-nav .main-menu li a:hover {
+  color: #fff;
+}
+.main-nav .right-menu {
+  display: flex;
+  justify-content: center;
+}
+.main-nav .right-menu li {
+  padding: 0 10px;
+}
+
+/* showcase */
+.showcase {
+  width: 100%;
+  height: 600px;
+  background: url('./Images/heroImage.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px;
+  align-items: flex-start;
+  color: #fff;
+}
+.showcase .logo {
+  width: 110px;
+  margin-top: 10px;
+}
+.showcase .search-area {
+  border: 1px green solid;
+  width: 800px;
+  height: 100%;
+}
+.showcase .search-area .title {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 110px auto;
+  padding: 0px 10px;
+  align-items: center;
+}
+.showcase .search-area .title h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 50;
+}
+.custom-radio input {
+  display: none;
+}
+.custom-radio .radio-button {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 50px;
+  cursor: pointer;
+}
+.custom-radio input:checked + .radio-button {
+  background-color: #2d98da;
+  transition: 0.4s;
+}
+
+.showcase .right-area {
+  border: 1px yellow solid;
+  width: 200px;
+}
