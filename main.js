@@ -1,18 +1,13 @@
-/*const findItems = document.querySelectorAll('#find');
-
-const removeClick = () => {
-  findItems.forEach((item) => {
-    if (item.className === 'click-item') {
-      item.className = 'find-item';
-    }
+$(document).ready(function () {
+  $('.default-option').click(function () {
+    $(this).parent().toggleClass('active');
   });
-};
+});
 
-function addClick(el) {
-  removeClick();
-  if (this.className === 'find-item') {
-    this.className = 'click-item';
-  }
-}
-
-findItems.forEach((item) => item.addEventListener('click', addClick()));
+$(document).ready(function () {
+  $('.select-ul li').click(function () {
+    let currentele = $(this).html();
+    $(this).parent().siblings().children().html(currentele);
+    $('.search-field').removeClass('active');
+  });
+});
