@@ -73,12 +73,14 @@ ul {
   align-items: flex-start;
   color: #fff;
 }
+
 .showcase .logo {
   width: 110px;
   margin-top: 10px;
 }
 .search-area {
   width: 800px;
+  min-width: 500px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -87,6 +89,7 @@ ul {
 }
 .search-area .title {
   width: 70%;
+  min-width: 700px;
   display: flex;
   justify-content: space-around;
   margin-top: 110px;
@@ -249,41 +252,153 @@ ul {
   font-size: 0.875rem;
 }
 .showcase .right-area {
-  border: 1px yellow solid;
-  width: 200px;
-  height: 500px;
+  width: 150px;
+  min-width: 120px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.right-area .sell-button {
-  margin: 10px auto;
-  font-size: 14px;
-  width: 75%;
-  height: 40px;
-  color: #fff;
-  background-color: #ff7b00;
-  text-align: center;
-  border: 1px solid transparent;
-  border-radius: 10rem;
-}
-.sell-button a.button {
+
+.right-area .btn {
   display: inline-block;
-  margin: 10px auto;
+  margin: 0 auto;
   font-size: 14px;
-  width: 75%;
-  height: 40px;
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
   color: #fff;
-  background-color: #ff7b00;
+  background: #ff7b00;
   text-align: center;
   border: 1px solid transparent;
   border-radius: 10rem;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  color: initial;
+  font-weight: bold;
 }
-.right-area .manage-ad a {
+.right-area .manage-ad {
+  display: inline-block;
   font-size: 14px;
   color: #fff;
-  border: 1px red solid;
   margin: 0 auto;
+}
+.right-area .manage-ad:hover {
+  text-decoration: underline;
+}
+
+/* Buy from home banner */
+.buyfromhome-banner {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 50px;
+}
+.buyfromhome-banner img {
+  margin: 0 auto;
+}
+
+/* show room */
+.showroom {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.showroom-title {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  line-height: 50px;
+}
+.showroom-title h2 {
+  width: 250px;
+  font-size: 1.575rem;
+}
+.showroom-title nav {
+  width: 600px;
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+}
+.text-muted {
+  color: #9b9b9b;
+}
+
+.showroom-title .h5 {
+  margin-right: 20px;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+.active {
+  font-weight: 600;
+  color: #00448d;
+  border-bottom: 1px solid;
+}
+.showroom-title a {
+  width: 220px;
+  padding-left: 70px;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.showroom-title a:hover {
+  color: #00448d;
+  text-decoration: underline;
+}
+
+.showroom-sections {
+  text-align: center;
+  height: 100px;
+  width: 75%;
+  margin: 0 auto;
+}
+.showroom-content-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.showroom-content-item {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.showroom-content-item:hover span {
+  text-decoration: underline;
+}
+.showroom-content-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.showroom-content-item span {
+  color: #00448d;
+  font-size: 0.875rem;
+}
+.showroom-content-brand {
+  width: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.showroom-content-brand:hover span {
+  text-decoration: underline;
+}
+.showroom-content-brand img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.showroom-content-brand span {
+  color: #00448d;
+  font-size: 0.875rem;
+}
+#showroom-1-content,
+#showroom-2-content {
+  display: none;
+}
+.show {
+  display: block !important;
+}
+.showroom-ad {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
 }
