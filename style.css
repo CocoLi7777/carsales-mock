@@ -680,6 +680,12 @@ ul {
   font-weight: 100;
   font-size: 12px;
 }
+.slide-content img {
+  width: 20%;
+}
+.slide-content h5 {
+  margin-top: 50px;
+}
 .slide-content .advice {
   font-size: 14px;
   color: #5c9b1c;
