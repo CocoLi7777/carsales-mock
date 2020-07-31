@@ -747,9 +747,9 @@ ul {
   text-decoration: underline;
 }
 
-/*   copy    */
+/*   Car Reviews    */
 #slider {
-  margin: 0px auto;
+  margin: 30px auto;
   width: 100%;
 }
 #slider input[type='radio'] {
@@ -880,7 +880,6 @@ ul {
   height: 100%;
   border: 1px #9b9b9b solid;
   border-radius: 0.25rem;
-  margin-left: 15px;
 }
 .slide-inner .top {
   width: 100%;
@@ -889,6 +888,9 @@ ul {
 .slide-inner .top img {
   margin: 50px auto;
   width: 20%;
+}
+.slide .primary {
+  margin-right: 15px;
 }
 .slide-1-inner-one .top {
   background: url('Images/CR1-1.jpg') no-repeat;
