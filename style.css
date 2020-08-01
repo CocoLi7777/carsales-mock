@@ -1618,3 +1618,6 @@ ul {
   text-align: center;
   font-weight: 200;
 }
+.other-offering .btn-outline:hover {
+  background-color: #f6f6f6;
+}
