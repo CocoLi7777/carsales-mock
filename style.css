@@ -1487,7 +1487,6 @@ ul {
   height: 150px;
 }
 .car-week .car-week-middle h3 {
-  font-family: serif;
   font-size: 32px;
   font-weight: 600;
   color: #000;
@@ -1509,7 +1508,7 @@ ul {
   width: 130px;
   height: 40px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 400;
   cursor: pointer;
 }
 
