@@ -1519,14 +1519,16 @@ ul {
   font-size: 0.875rem;
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  align-items: center;
+  align-items: right;
 }
 .car-week .BMW-logo {
   background: url('Images/BMW-logo.png') no-repeat;
   background-size: 43px;
-  margin-left: 10px;
+  margin-left: 100px;
   height: 45px;
   width: 45px;
   align-items: center;
+}
+.car-week .car-week-right p {
+  margin-left: 100px;
 }
