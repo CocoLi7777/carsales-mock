@@ -1467,7 +1467,7 @@ ul {
 
 /* car week */
 .car-week a {
-  margin: 30px auto;
+  margin: 0px auto;
   width: 64%;
   display: flex;
   justify-content: space-between;
