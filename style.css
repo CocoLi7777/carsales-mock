@@ -878,7 +878,7 @@ ul {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  border: 1px #9b9b9b solid;
+  border: 1px #ddd solid;
   border-radius: 0.25rem;
 }
 .slide-inner .top {
@@ -1121,7 +1121,7 @@ ul {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  border: 1px #9b9b9b solid;
+  border: 1px #ddd solid;
   border-radius: 0.25rem;
 }
 .slide-inner-CN .top {
@@ -1364,7 +1364,7 @@ ul {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  border: 1px #9b9b9b solid;
+  border: 1px #ddd solid;
   border-radius: 0.25rem;
 }
 .slide-inner-CA .top {
@@ -1463,4 +1463,70 @@ ul {
   font-size: 14px;
   color: #1b83c4;
   font-weight: 100;
+}
+
+/* car week */
+.car-week a {
+  margin: 30px auto;
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: solid 1px #ddd;
+  cursor: pointer;
+}
+.car-week a img {
+  width: 400px;
+}
+.car-week .car-week-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  height: 150px;
+}
+.car-week .car-week-middle h3 {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+}
+.car-week .car-week-middle p {
+  color: #888;
+  font-size: 18px;
+  height: 100px;
+}
+
+.car-week .car-week-middle .btn-primary {
+  display: inline-block;
+  background: #007cc2;
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  line-height: 30px;
+  border-radius: 10rem;
+  width: 130px;
+  height: 35px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.car-week .car-week-right {
+  width: 20%;
+  color: #808080;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.car-week .BMW-logo {
+  background: url('Images/BMW-logo.png') no-repeat;
+  background-size: 43px;
+  margin-left: 10px;
+  height: 45px;
+  width: 45px;
+  align-items: center;
 }
