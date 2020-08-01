@@ -1621,3 +1621,43 @@ ul {
 .other-offering .btn-outline:hover {
   background-color: #f6f6f6;
 }
+
+/* footer widgets */
+
+.footer-widgets {
+  margin: 30px auto;
+  width: 64%;
+  height: 500px;
+}
+.footer-widgets a {
+  color: #6e6e6e;
+}
+
+.footer-widgets .widgets-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-widgets .col {
+  width: 16.6666667%;
+  height: 100%;
+}
+.footer-widgets .col .title {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer-widgets .col ul {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  display: inline-block;
+}
+.footer-widgets .col .widgets-list li {
+  margin-top: 10px;
+  display: block;
+}
+.footer-widgets .col .widgets-list a:hover {
+  text-decoration: underline;
+}
