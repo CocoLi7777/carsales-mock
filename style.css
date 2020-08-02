@@ -102,7 +102,10 @@ ul {
 .search-area span {
   font-size: 2rem;
   color: white;
-  font-weight: bold;
+  font-weight: 300;
+}
+.search-area .area-title {
+  font-weight: 400;
 }
 .custom-radio input {
   display: none;
@@ -247,10 +250,18 @@ ul {
   font-size: 16px;
   padding: 15px 20px;
   margin: 10px auto;
+  color: #fff;
   background-color: #007cc2;
+  display: inline-block;
 }
+.show-number .show-details:hover {
+  background-color: #1c538d;
+  transition: 250ms ease;
+}
+
 .show-number p {
   font-size: 0.875rem;
+  color: #fff;
 }
 .showcase .right-area {
   width: 150px;
@@ -423,7 +434,7 @@ ul {
   justify-content: center;
 }
 .sponsored p {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
 }
 .sponsored-section {
