@@ -38,6 +38,7 @@ ul {
   padding-right: 15%;
   margin: auto;
   background-color: #272727;
+  border-top: 7px solid #0073ba;
 }
 .main-nav .icon {
   font-size: 1.2rem;
@@ -1659,4 +1660,76 @@ ul {
 }
 .footer-widgets .col .widgets-list a:hover {
   text-decoration: underline;
+}
+
+/* footer info */
+
+.footer-info {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  font-size: 14px;
+  background: #007cc2;
+}
+.footer-info .footer-container {
+  width: 64%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info .container-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-info .footer-logo {
+  background: url('./Images/carsalesLogo.svg') no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 32px;
+  display: inline-block;
+  font-weight: 400;
+}
+.footer-info .info {
+  font-weight: 600;
+  margin-left: 30px;
+}
+.footer-info .footer-media {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 80px;
+  align-items: center;
+
+  text-align: center;
+}
+.footer-info .facebook {
+  display: inline-block;
+  background: url('./Images/fackbook.svg') no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 34px;
+  background-position: center;
+}
+.footer-info .twitter {
+  background: url('./Images/twitter.svg') no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 34px;
+  background-position: center;
+}
+.footer-info .youtube {
+  background: url('./Images/youtube.svg') no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 34px;
+  background-position: center;
+}
+.footer-info .ins {
+  background: url('./Images/ins.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25px;
+  height: 34px;
 }
