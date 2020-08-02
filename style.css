@@ -320,14 +320,18 @@ ul {
   padding-bottom: 20px;
 }
 .showroom-title {
+  width: 75%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: 40px;
   line-height: 50px;
 }
 .showroom-title h2 {
   width: 250px;
   font-size: 1.575rem;
+  color: #4a4a4a;
+  font-weight: 400;
 }
 .showroom-title nav {
   width: 600px;
