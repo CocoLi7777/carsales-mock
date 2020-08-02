@@ -1621,6 +1621,8 @@ ul {
   width: 90%;
   align-items: center;
   height: 40px;
+  margin: 0 auto;
+  display: inline-block;
 }
 .other-offering .btn-outline {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
