@@ -216,10 +216,12 @@ ul {
   cursor: pointer;
   color: #777;
   height: 45px;
+  font-weight: 300;
 }
 .search-field .select-ul li:hover {
   background: #edf7f9;
   font-size: 15px;
+  font-weight: 400;
 }
 .search-field .select-ul li:first-child:hover {
   border-bottom-right-radius: 5px;
