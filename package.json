@@ -1,0 +1,26 @@
+{
+  "name": "carsales",
+  "version": "1.0.0",
+  "description": "mock-landingpage",
+  "main": "main.js",
+  "dependencies": {
+    "cypress": "^4.12.0"
+  },
+  "devDependencies": {
+    "cypress": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocoLi7777/carsales-mock.git"
+  },
+  "author": "coco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CocoLi7777/carsales-mock/issues"
+  },
+  "homepage": "https://github.com/CocoLi7777/carsales-mock#readme"
+}
